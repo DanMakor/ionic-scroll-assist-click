@@ -10,4 +10,8 @@ import { IonicModule } from '@ionic/angular';
 })
 export class AppComponent {
   constructor() {}
+
+  public clicked() {
+    console.log('clicked');
+  }
 }
